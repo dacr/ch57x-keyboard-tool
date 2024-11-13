@@ -1,0 +1,14 @@
+orientation: normal
+rows: 2
+columns: 3
+knobs: 1
+
+layers:
+  - buttons:
+      - ["scrolllock,scrolllock,4", "shift-printscreen", "ctrl-shift-printscreen"]
+      - ["scrolllock,scrolllock,1", "scrolllock,scrolllock,2", "scrolllock,scrolllock,3"]
+    knobs:
+      - ccw: "pagedown"
+        press: "numlock"
+        cw: "pageup"
+

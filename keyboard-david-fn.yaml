@@ -1,0 +1,14 @@
+orientation: normal
+rows: 2
+columns: 3
+knobs: 1
+
+layers:
+  - buttons:
+      - ["f13", "f14", "f15"]
+      - ["f16", "f17", "f18"]
+    knobs:
+      - ccw: "volumedown"
+        press: "f20"
+        cw: "volumeup"
+

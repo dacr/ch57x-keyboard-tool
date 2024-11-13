@@ -1,0 +1,14 @@
+orientation: normal
+rows: 2
+columns: 3
+knobs: 1
+
+layers:
+  - buttons:
+      - ["numpad4", "numpad5", "numpad6"]
+      - ["numpad1", "numpad2", "numpad3"]
+    knobs:
+      - ccw: "volumedown"
+        press: "numlock"
+        cw: "volumeup"
+
